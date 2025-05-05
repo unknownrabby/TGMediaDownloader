@@ -17,19 +17,20 @@ A Python script to download media (photos, videos, or documents) from a Telegram
 
 ### 1. Clone the Repository
 
-    git clone https://github.com/your-username/telegram-media-downloader.git
-    cd telegram-media-downloader
-2. Install Requirements
+    git clone https://github.com/unknownrabby/TGMediaDownloader.git
+    cd TGMediaDownloader
+2. **Install Requirements**
     pip install -r requirements.txt
-📱 Get Telegram API Credentials
+📱 **Get Telegram API Credentials**
 Go to https://my.telegram.org
 Log in with your Telegram number.
 Click on API Development Tools.
 Fill in the form to create a new app.
 Copy your api_id and api_hash.
 
-🔐 Configuration
+🔐** Configuration**
 Create a file named config.json in the root directory with the following content:
+
 {
   "api_id": 123456,
   "api_hash": "your_api_hash_here",
@@ -59,8 +60,8 @@ downloaded_media/files/
 📂 **File Structure**
 
 telegram-media-downloader/
-├── Bot.py
-├── config.json           # Your Telegram API credentials (do not upload)
+├── TGMediadl.py
+├── config.json           
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
