@@ -30,10 +30,6 @@ Copy your api_id and api_hash.
 
 🔐 Configuration
 Create a file named config.json in the root directory with the following content:
-
-json
-Copy
-Edit
 {
   "api_id": 123456,
   "api_hash": "your_api_hash_here",
